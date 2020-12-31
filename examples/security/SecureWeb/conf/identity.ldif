@@ -1,0 +1,177 @@
+dn: dc=wellcare,dc=com
+objectClass: domain
+objectClass: top
+dc: wellcare
+
+dn: ou=People,dc=wellcare,dc=com
+objectClass: organizationalunit
+objectClass: top
+ou: People
+
+dn: uid=user.0,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaccf Amar$01251 Chestnut Street$Panama City, DE  50369
+postalCode: 50369
+uid: user.0
+description: This is the description for Aaccf Amar.
+userPassword: {SSHA}S4l3MC1soqQnquy68+f8V6gAMQ/XMVe5p4JcMQ==
+employeeNumber: 0
+initials: ASA
+givenName: Aaccf
+pager: +1 779 041 6341
+mobile: +1 010 154 3228
+cn: Aaccf Amar
+telephoneNumber: +1 685 622 6202
+sn: Amar
+street: 01251 Chestnut Street
+homePhone: +1 225 216 5900
+mail: user.0@maildomain.net
+l: Panama City
+ou: User
+st: DE
+
+dn: uid=user.1,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaren Atp$70110 Fourth Street$New Haven, OH  93694
+postalCode: 93694
+uid: user.1
+description: This is the description for Aaren Atp.
+userPassword: {SSHA}48XlJ0mE/yf+kaZI6nbc7j7VGB+HuTdEQ1CTtg==
+employeeNumber: 1
+initials: ALA
+givenName: Aaren
+pager: +1 850 883 8888
+mobile: +1 680 734 6300
+cn: Aaren Atp
+telephoneNumber: +1 390 103 6917
+sn: Atp
+street: 70110 Fourth Street
+homePhone: +1 280 375 4325
+mail: user.1@maildomain.net
+l: New Haven
+st: OH
+
+dn: uid=user.2,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aarika Atpco$00900 Maple Street$New Orleans, KS  10857
+postalCode: 10857
+uid: user.2
+description: This is the description for Aarika Atpco.
+userPassword: {SSHA}/4hKO2+T1hzzAZioM5bPcO8qMA+bf6H/Ic1+aQ==
+employeeNumber: 2
+initials: AOA
+givenName: Aarika
+pager: +1 053 688 9803
+mobile: +1 279 618 3901
+cn: Aarika Atpco
+telephoneNumber: +1 757 462 0301
+sn: Atpco
+street: 00900 Maple Street
+homePhone: +1 003 428 0962
+mail: user.2@maildomain.net
+l: New Orleans
+st: KS
+
+dn: uid=user.3,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaron Atrc$59748 Willow Street$Green Bay, TN  66239
+postalCode: 66239
+uid: user.3
+description: This is the description for Aaron Atrc.
+userPassword: {SSHA}/dFwIsYwntowuy+vY8Hzh/bNv5Kmkm9+6nm/Tw==
+employeeNumber: 3
+initials: AKA
+givenName: Aaron
+pager: +1 197 025 3730
+mobile: +1 890 430 9077
+cn: Aaron Atrc
+telephoneNumber: +1 094 100 7524
+sn: Atrc
+street: 59748 Willow Street
+homePhone: +1 332 432 4295
+mail: user.3@maildomain.net
+l: Green Bay
+st: TN
+
+dn: uid=user.4,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aartjan Aalders$77810 Adams Street$Bryan, NC  72311
+postalCode: 72311
+uid: user.4
+description: This is the description for Aartjan Aalders.
+userPassword: {SSHA}5i4136wgu8MATkuZz584mXLkusSlYRTi8puWMw==
+employeeNumber: 4
+initials: ALA
+givenName: Aartjan
+pager: +1 951 150 0057
+mobile: +1 209 956 9394
+cn: Aartjan Aalders
+telephoneNumber: +1 548 762 2193
+sn: Aalders
+street: 77810 Adams Street
+homePhone: +1 423 009 6628
+mail: user.4@maildomain.net
+l: Bryan
+st: NC
+
+dn: uid=xkou,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+givenName: Xuekun
+uid: xkou
+cn: Xuekun Kou
+sn: Kou
+userPassword: {SSHA}3elmKtN4PFtmClLF52oZWeW8GexwdNxZSGiu4Q==
+mail: xuekun.kou@wellcare.com
+entryUUID: 18d1ff80-7700-45b8-8ed6-ae5706e067af
+pwdChangedTime: 20090114223251.025Z
+
+dn: cn=ServiceAccount,dc=wellcare,dc=com
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+givenName: Service
+uid: saccount
+cn: ServiceAccount
+sn: Account
+userPassword: {SSHA}GzIRL0PRGZyQoautcTqmTG8AHMMf3bdmUwjA4Q==
+
+dn: ou=Roles,dc=wellcare,dc=com
+objectClass: organizationalUnit
+objectClass: top
+description: User Roles
+ou: Roles
+
+dn: cn=User,ou=Roles,dc=wellcare,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: User
+uniqueMember: uid=user.0,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.1,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.2,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.3,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.4,ou=People,dc=wellcare,dc=com
+
+dn: cn=Admin,ou=Roles,dc=wellcare,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Admin
+uniqueMember: uid=xkou,ou=People,dc=wellcare,dc=com

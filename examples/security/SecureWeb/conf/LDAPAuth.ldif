@@ -1,0 +1,290 @@
+dn: dc=wellcare,dc=com
+objectClass: domain
+objectClass: top
+dc: wellcare
+entryUUID: a32b39d8-18de-391f-9ee6-d9b27c6fb51f
+
+dn: ou=People,dc=wellcare,dc=com
+objectClass: organizationalunit
+objectClass: top
+ou: People
+entryUUID: 097edf5e-7d78-3ceb-8c2a-601dad450268
+
+dn: uid=user.0,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaccf Amar$01251 Chestnut Street$Panama City, DE  50369
+postalCode: 50369
+uid: user.0
+description: This is the description for Aaccf Amar.
+userPassword: {SSHA}S4l3MC1soqQnquy68+f8V6gAMQ/XMVe5p4JcMQ==
+employeeNumber: 0
+initials: ASA
+givenName: Aaccf
+pager: +1 779 041 6341
+mobile: +1 010 154 3228
+cn: Aaccf Amar
+telephoneNumber: +1 685 622 6202
+sn: Amar
+street: 01251 Chestnut Street
+homePhone: +1 225 216 5900
+mail: user.0@maildomain.net
+l: Panama City
+ou: User
+st: DE
+entryUUID: d3bf4bf6-b272-3ad2-b53d-bcc53f7cc00f
+pwdChangedTime: 20090114223203.586Z
+modifyTimestamp: 20090114223203Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=user.1,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaren Atp$70110 Fourth Street$New Haven, OH  93694
+postalCode: 93694
+uid: user.1
+description: This is the description for Aaren Atp.
+userPassword: {SSHA}48XlJ0mE/yf+kaZI6nbc7j7VGB+HuTdEQ1CTtg==
+employeeNumber: 1
+initials: ALA
+givenName: Aaren
+pager: +1 850 883 8888
+mobile: +1 680 734 6300
+cn: Aaren Atp
+telephoneNumber: +1 390 103 6917
+sn: Atp
+street: 70110 Fourth Street
+homePhone: +1 280 375 4325
+mail: user.1@maildomain.net
+l: New Haven
+st: OH
+entryUUID: 3b6c83b7-09a3-3b61-ab41-03b5525e51dc
+pwdChangedTime: 20090114223212.790Z
+modifyTimestamp: 20090114223212Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=user.2,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aarika Atpco$00900 Maple Street$New Orleans, KS  10857
+postalCode: 10857
+uid: user.2
+description: This is the description for Aarika Atpco.
+userPassword: {SSHA}/4hKO2+T1hzzAZioM5bPcO8qMA+bf6H/Ic1+aQ==
+employeeNumber: 2
+initials: AOA
+givenName: Aarika
+pager: +1 053 688 9803
+mobile: +1 279 618 3901
+cn: Aarika Atpco
+telephoneNumber: +1 757 462 0301
+sn: Atpco
+street: 00900 Maple Street
+homePhone: +1 003 428 0962
+mail: user.2@maildomain.net
+l: New Orleans
+st: KS
+entryUUID: 659b52e3-5a4f-3fa0-bafc-9479b1008f15
+pwdChangedTime: 20090114223223.602Z
+modifyTimestamp: 20090114223223Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=user.3,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aaron Atrc$59748 Willow Street$Green Bay, TN  66239
+postalCode: 66239
+uid: user.3
+description: This is the description for Aaron Atrc.
+userPassword: {SSHA}/dFwIsYwntowuy+vY8Hzh/bNv5Kmkm9+6nm/Tw==
+employeeNumber: 3
+initials: AKA
+givenName: Aaron
+pager: +1 197 025 3730
+mobile: +1 890 430 9077
+cn: Aaron Atrc
+telephoneNumber: +1 094 100 7524
+sn: Atrc
+street: 59748 Willow Street
+homePhone: +1 332 432 4295
+mail: user.3@maildomain.net
+l: Green Bay
+st: TN
+entryUUID: 05ce6b26-3f5c-3f58-b42d-5f902d439609
+pwdChangedTime: 20090114223233.212Z
+modifyTimestamp: 20090114223233Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=user.4,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: inetorgperson
+objectClass: organizationalperson
+objectClass: top
+postalAddress: Aartjan Aalders$77810 Adams Street$Bryan, NC  72311
+postalCode: 72311
+uid: user.4
+description: This is the description for Aartjan Aalders.
+userPassword: {SSHA}5i4136wgu8MATkuZz584mXLkusSlYRTi8puWMw==
+employeeNumber: 4
+initials: ALA
+givenName: Aartjan
+pager: +1 951 150 0057
+mobile: +1 209 956 9394
+cn: Aartjan Aalders
+telephoneNumber: +1 548 762 2193
+sn: Aalders
+street: 77810 Adams Street
+homePhone: +1 423 009 6628
+mail: user.4@maildomain.net
+l: Bryan
+st: NC
+entryUUID: d61e2ba8-9fcc-3ab2-9c2a-f6a6a67ff503
+pwdChangedTime: 20090114223242.025Z
+modifyTimestamp: 20090114223311Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=xkou,ou=People,dc=wellcare,dc=com
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+givenName: Xuekun
+uid: xkou
+cn: Xuekun Kou
+sn: Kou
+userPassword: {SSHA}3elmKtN4PFtmClLF52oZWeW8GexwdNxZSGiu4Q==
+mail: xuekun.kou@wellcare.com
+entryUUID: 18d1ff80-7700-45b8-8ed6-ae5706e067af
+pwdChangedTime: 20090114223251.025Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+createTimestamp: 20090114204128Z
+modifyTimestamp: 20090114223256Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=ServiceAccount,dc=wellcare,dc=com
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: top
+givenName: Service
+uid: saccount
+cn: ServiceAccount
+sn: Account
+userPassword: {SSHA}GzIRL0PRGZyQoautcTqmTG8AHMMf3bdmUwjA4Q==
+entryUUID: 6e606692-fe0f-4f8e-b5a4-1da24da18df4
+createTimestamp: 20090114205002Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+pwdChangedTime: 20090114205002.156Z
+
+dn: ou=Roles,dc=wellcare,dc=com
+objectClass: organizationalUnit
+objectClass: top
+description: User Roles
+ou: Roles
+entryUUID: 79146b44-06de-4df3-bbce-46027a24b929
+createTimestamp: 20090114222445Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=User,ou=Roles,dc=wellcare,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: User
+uniqueMember: uid=user.0,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.1,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.2,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.3,ou=People,dc=wellcare,dc=com
+uniqueMember: uid=user.4,ou=People,dc=wellcare,dc=com
+entryUUID: 37d79a6c-edb0-49fe-8efa-3f3bc9141296
+createTimestamp: 20090114223026Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=Admin,ou=Roles,dc=wellcare,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Admin
+uniqueMember: uid=xkou,ou=People,dc=wellcare,dc=com
+entryUUID: dc1813be-066e-4dc0-96e8-839bbccb508c
+createTimestamp: 20090114223100Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: dc=Test
+objectClass: domain
+objectClass: top
+dc: Test
+entryUUID: 6f45afa5-1068-387e-a21a-c4a54518872c
+
+dn: cn=test-server-a,dc=Test
+objectClass: jmxConnector
+objectClass: top
+objectClass: javaContainer
+jmxExpirationDate: 20090108210254.0Z
+jmxServiceURL: service:jmx:iiop://xkou-11325b/ior/IOR:000000000000003b524d493a6a617661782e6d616e6167656d656e742e72656d6f74652e726d692e524d495365727665723a30303030303030303030303030303030000000000001000000000000006e000102000000000d31302e3131302e31322e34380000126e00000019afabcb0000000002b80d1c8800000008000000000000000014000000000000020000000100000020000000000001000100000002050100010001002000010109000000010001010000000026000000020002
+jmxProtocolType: iiop
+jmxAgentName: test-server-a
+cn: test-server-a
+jmxAgentHost: xkou-11325b
+entryUUID: e56a9cda-44fb-42bc-bd24-b58999b13078
+createTimestamp: 20090108205113Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20090108210153Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=test-server-b,dc=Test
+objectClass: jmxConnector
+objectClass: top
+objectClass: javaContainer
+jmxExpirationDate: 20090108205920.40Z
+jmxServiceURL: service:jmx:rmi:///jndi/rmi://localhost:9999/server
+jmxProtocolType: rmi
+jmxAgentName: test-server-b
+cn: test-server-b
+jmxAgentHost: xkou-11325b
+entryUUID: 64f5d6d8-cc9a-4b00-8d2e-7200259114c2
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+createTimestamp: 20090108205819Z
+modifyTimestamp: 20090108205819Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=x,dc=Test
+objectClass: javaSerializedObject
+objectClass: javaObject
+objectClass: top
+objectClass: javaContainer
+javaSerializedData:: rO0ABXNyAC5qYXZheC5tYW5hZ2VtZW50LnJlbW90ZS5ybWkuUk1JU2VydmVySW1wbF9TdHViAAAAAAAAAAICAAB4cgAaamF2YS5ybWkuc2VydmVyLlJlbW90ZVN0dWLp/tzJi+FlGgIAAHhyABxqYXZhLnJtaS5zZXJ2ZXIuUmVtb3RlT2JqZWN002G0kQxhMx4DAAB4cHc3AAtVbmljYXN0UmVmMgAADDEwLjExMC4xMi40OAAAElnrtJ77r1yXO33Xm8AAAAEeuArisIABAHg=
+cn: x
+javaClassNames: javax.management.remote.rmi.RMIServerImpl_Stub
+javaClassNames: java.rmi.server.RemoteStub
+javaClassNames: java.rmi.server.RemoteObject
+javaClassNames: java.lang.Object
+javaClassNames: java.rmi.Remote
+javaClassNames: java.io.Serializable
+javaClassNames: javax.management.remote.rmi.RMIServer
+javaClassName: javax.management.remote.rmi.RMIServerImpl_Stub
+entryUUID: 84b36355-4e71-4732-b4d4-e11e0ad67e5c
+createTimestamp: 20090108205927Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=test-server-c,dc=Test
+objectClass: jmxConnector
+objectClass: top
+objectClass: javaContainer
+jmxExpirationDate: 20090108210027.964Z
+jmxServiceURL: service:jmx:rmi:///jndi/ldap://localhost:389/cn=x,dc=Test
+jmxProtocolType: rmi
+jmxAgentName: test-server-c
+cn: test-server-c
+jmxAgentHost: xkou-11325b
+entryUUID: 783ca7d4-6794-4ed5-bd64-571fadb44394
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+createTimestamp: 20090108205927Z
+modifyTimestamp: 20090108205927Z
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+
